@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+python-dotenv
+python-multipart
+openai
+sqlalchemy
+pydantic
+python-jose
+mysql-connector-python
+mysqlclient
+cryptography
+mysql.connector

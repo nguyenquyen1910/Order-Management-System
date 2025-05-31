@@ -1,0 +1,97 @@
+/* Dashboard Styles */
+.stats-card {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+.stats-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+.stats-card .card-title {
+  font-size: 13px;
+  color: #6c757d;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.stats-card .card-value {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.stats-card .percentage {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 2px 6px;
+  border-radius: 50px;
+}
+.percentage.up {
+  color: #28a745;
+  background-color: rgba(40, 167, 69, 0.1);
+}
+.percentage.down {
+  color: #dc3545;
+  background-color: rgba(220, 53, 69, 0.1);
+}
+.time-selector {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 8px;
+  font-size: 12px;
+  color: #6c757d;
+  background: #f8f9fa;
+  border-radius: 50px;
+}
+.chart-container {
+  height: 60px;
+  width: 100%;
+  margin-top: 5px;
+}
+.bar-chart-container {
+  height: 230px;
+  width: 100%;
+}
+.pie-chart-container {
+  height: 220px;
+  width: 100%;
+  margin: 0 auto;
+}
+.top-product-item {
+  padding: 8px 0;
+  border-bottom: 1px solid #f1f1f1;
+}
+.top-product-item:last-child {
+  border-bottom: none;
+}
+.top-product-item img {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.top-product-item .product-name {
+  font-size: 13px;
+  font-weight: 500;
+}
+.top-product-item .product-price {
+  font-size: 12px;
+  color: #6c757d;
+}
+.top-product-item .product-sales {
+  font-size: 12px;
+  font-weight: 500;
+  color: #28a745;
+}
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.panel-header h6 {
+  margin-bottom: 0;
+  font-weight: 600;
+}
